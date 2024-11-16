@@ -1,0 +1,75 @@
+
+*{
+   padding: 0px;
+   margin: 0px;
+
+
+}
+body{
+   background-color: skyblue;
+   color: rgb(219, 228, 237);
+   display: flex;
+   justify-content: center;
+   
+}
+
+.wrapper{
+   width: 1000px;
+   padding: 10px;
+   background-color: rgb(160, 19, 241);
+   border-radius: 5px;  
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+
+.CreateForm{
+   height: 40px;
+   width: 100%; 
+   margin: 25px 0px ;
+   border: 1px solid rgb(170, 112, 199);
+   display: flex;
+}
+
+.CreateForm > input{
+  background:none ;
+  outline: none;
+  color: rgb(170, 98, 98);
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  
+}
+
+
+.CreateForm > button{
+   border: none;
+   background-color: rgb(164, 163, 223);
+   width: 50px;
+   height: 100%;
+   cursor: pointer;
+   color: rgb(37, 20, 20)
+
+}
+
+
+.todo{
+   background-color: rgb(162, 170, 199);
+   border-radius: 5%;
+   height: 40px;
+   padding: 0 10px;
+   margin-top :10px;
+   display:flex ;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.completed {
+   opacity: 0.4;
+   text-decoration: line-through;
+ }
+
+
+
